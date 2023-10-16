@@ -1,0 +1,13 @@
+Puntos a tener en cuenta al momento de consumir la API
+
+1. Se realizó la implementacion de un multitenant para acceder a la cadena de conexion de la base de datos desde los HEADERS en Postman con una KEY(Client) VALUE(test_neoris).
+
+2. Para realizar las pruebas unitarias por favor leer el comentario de la linea 19 del repositorio de cliente, donde se especifica como traer la cadena de conexion de la base de datos. 
+ 
+3. Los endpoints se pueden consumir desde el Swagger al momento de compilar la API, ahí encotrara el campo Client_Name para poder acceder al tenant que contiene la cadena de conexion.
+ 
+4. Las respuesta de los servicios se devuelven en formato Json como se solicitó en las especificaciones de la prueba. 
+
+5. Adjunto se encuentra la base de datos con el nombre (BaseDatos).
+
+6. Adjunto se encuentra la colección de postman para el consumo de la API.

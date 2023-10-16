@@ -1,0 +1,12 @@
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.CORE\bin\Debug\net6.0\TEST.CORE.deps.json
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.CORE\bin\Debug\net6.0\TEST.CORE.dll
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.CORE\bin\Debug\net6.0\TEST.CORE.pdb
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.CORE\obj\Debug\net6.0\TEST.CORE.csproj.AssemblyReference.cache
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.CORE\obj\Debug\net6.0\TEST.CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.CORE\obj\Debug\net6.0\TEST.CORE.AssemblyInfoInputs.cache
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.CORE\obj\Debug\net6.0\TEST.CORE.AssemblyInfo.cs
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.CORE\obj\Debug\net6.0\TEST.CORE.csproj.CoreCompileInputs.cache
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.CORE\obj\Debug\net6.0\TEST.CORE.dll
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.CORE\obj\Debug\net6.0\refint\TEST.CORE.dll
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.CORE\obj\Debug\net6.0\TEST.CORE.pdb
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.CORE\obj\Debug\net6.0\ref\TEST.CORE.dll

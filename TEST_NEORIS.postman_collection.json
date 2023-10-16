@@ -1,0 +1,413 @@
+{
+	"info": {
+		"_postman_id": "9434bb0e-4890-4fb6-a29a-cb20d4116221",
+		"name": "TEST_NEORIS",
+		"description": "Tener encuenta en los HEADERS para obtener cadena de conexion SQL.\n\nKEY = Client\n\nVALUE = test_neoris",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15600826",
+		"_collection_link": "https://tecnitiaco.postman.co/workspace/4f9577ba-3c04-4e85-9366-b502034d934f/collection/15600826-9434bb0e-4890-4fb6-a29a-cb20d4116221?action=share&source=collection_link&creator=15600826"
+	},
+	"item": [
+		{
+			"name": "Client",
+			"item": [
+				{
+					"name": "CrearCliente",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Client",
+								"value": "test_neoris",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"string\",\r\n  \"genero\": \"string\",\r\n  \"edad\": \"string\",\r\n  \"identificacion\": \"string\",\r\n  \"direccion\": \"string\",\r\n  \"telefono\": \"string\",\r\n  \"contraseña\": \"string\",\r\n  \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/clientes/crearPersona",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"clientes",
+								"crearPersona"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DetalleCliente",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Client",
+								"value": "test_neoris",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:5001/clientes/detallePersona/{contraseña}",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"clientes",
+								"detallePersona",
+								"{contraseña}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ActualizarCliente",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Client",
+								"value": "test_neoris",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"string\",\r\n  \"genero\": \"string\",\r\n  \"edad\": \"string\",\r\n  \"identificacion\": \"string\",\r\n  \"direccion\": \"string\",\r\n  \"telefono\": \"string\",\r\n  \"contraseña\": \"string\",\r\n  \"estado\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/clientes/actualizarPersona",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"clientes",
+								"actualizarPersona"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarCliente",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Client",
+								"value": "test_neoris",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:5001/clientes/eliminarPersona/{identificacion}",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"clientes",
+								"eliminarPersona",
+								"{identificacion}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Movement",
+			"item": [
+				{
+					"name": "CrearMovimiento",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Client",
+								"value": "test_neoris",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"fecha\": \"string\",\r\n  \"tipoMovimiento\": \"string\",\r\n  \"valor\": 0,\r\n  \"identificacion\": \"string\",\r\n  \"tipoCuenta\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/movimientos/crearMovimiento",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"movimientos",
+								"crearMovimiento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ReporteMovimientos",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Client",
+								"value": "test_neoris",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:5001/movimientos/reportes?fechaInicial=10/15/2023&fechaFinal=10/20/2023",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"movimientos",
+								"reportes"
+							],
+							"query": [
+								{
+									"key": "fechaInicial",
+									"value": "10/15/2023"
+								},
+								{
+									"key": "fechaFinal",
+									"value": "10/20/2023"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ActualizarMovimiento",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Client",
+								"value": "test_neoris",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"fecha\": \"string\",\r\n  \"tipoMovimiento\": \"string\",\r\n  \"valor\": 0,\r\n  \"identificacion\": \"string\",\r\n  \"tipoCuenta\": \"string\",\r\n  \"estado\": \"Aprovado/Rechazado\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/movimientos/actualizarMovimiento",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"movimientos",
+								"actualizarMovimiento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarMovimiento",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Client",
+								"value": "test_neoris",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:5001/movimientos/eliminarMovimiento/{fecha}",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"movimientos",
+								"eliminarMovimiento",
+								"{fecha}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Account",
+			"item": [
+				{
+					"name": "CrearCuenta",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Client",
+								"value": "test_neoris",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"numeroCuenta\": \"string\",\r\n  \"tipoCuenta\": \"string\",\r\n  \"saldoInicial\": 0,\r\n  \"estado\": true,\r\n  \"identificacion\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/cuentas/crearCuenta",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"cuentas",
+								"crearCuenta"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DetalleCuenta",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Client",
+								"value": "test_neoris",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:5001/cuentas/detalleCuenta/{identificacion}",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"cuentas",
+								"detalleCuenta",
+								"{identificacion}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ActualizarCuenta",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Client",
+								"value": "test_neoris",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:5001/cuentas/crearCuenta?saldoInicial=12345&identificacion=123456789&TipoCuenta=ejemplo",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"cuentas",
+								"crearCuenta"
+							],
+							"query": [
+								{
+									"key": "saldoInicial",
+									"value": "12345"
+								},
+								{
+									"key": "identificacion",
+									"value": "123456789"
+								},
+								{
+									"key": "TipoCuenta",
+									"value": "ejemplo"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarCuenta",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Client",
+								"value": "test_neoris",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:5001/cuentas/eliminarCuenta/{NumeroCuenta}",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"cuentas",
+								"eliminarCuenta",
+								"{NumeroCuenta}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

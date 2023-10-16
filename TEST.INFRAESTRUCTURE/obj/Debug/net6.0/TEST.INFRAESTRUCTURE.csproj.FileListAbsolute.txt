@@ -1,0 +1,15 @@
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\obj\Debug\net6.0\TEST.INFRAESTRUCTURE.csproj.AssemblyReference.cache
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\obj\Debug\net6.0\TEST.INFRAESTRUCTURE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\obj\Debug\net6.0\TEST.INFRAESTRUCTURE.AssemblyInfoInputs.cache
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\obj\Debug\net6.0\TEST.INFRAESTRUCTURE.AssemblyInfo.cs
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\obj\Debug\net6.0\TEST.INFRAESTRUCTURE.csproj.CoreCompileInputs.cache
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\bin\Debug\net6.0\TEST.INFRAESTRUCTURE.deps.json
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\bin\Debug\net6.0\TEST.INFRAESTRUCTURE.dll
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\bin\Debug\net6.0\TEST.INFRAESTRUCTURE.pdb
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\bin\Debug\net6.0\TEST.CORE.dll
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\bin\Debug\net6.0\TEST.CORE.pdb
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\obj\Debug\net6.0\TEST.INFRAESTRUCTURE.csproj.CopyComplete
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\obj\Debug\net6.0\TEST.INFRAESTRUCTURE.dll
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\obj\Debug\net6.0\refint\TEST.INFRAESTRUCTURE.dll
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\obj\Debug\net6.0\TEST.INFRAESTRUCTURE.pdb
+C:\Users\bryan\source\repos\API_TEST_NEORIS\TEST.INFRAESTRUCTURE\obj\Debug\net6.0\ref\TEST.INFRAESTRUCTURE.dll
